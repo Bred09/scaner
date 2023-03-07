@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jasmin: ассистент</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="container">
+        <form>
+          <p>Проверка КМ Честный ЗНАК</p>
+          <input
+            placeholder="0123456789101112215abcdef!@#$%^"
+            tabindex="1"
+            autofocus="autofocus"
+            class="code"
+            type="text"
+            maxlength="31"
+          />
+        </form>
+        <br>
+        <hr>
+        <br>
+        <textarea cols="40" rows="20" name="kizychz" id="kizy"></textarea>
+        <br>
+        <br>
+        <button class="add" onclick="add()">ADD</button>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
